@@ -34,5 +34,6 @@ Running this example should be easy as long as PYTHONPATH is set. Python files e
 and thus this folder must be on the PYTHONPATH when running.
 
 ```bash
-
+cd PyApp
+PYTHONPATH=`pwd`/build-artifacts/python fprime-gds
 ```
